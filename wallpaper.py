@@ -68,9 +68,9 @@ class condition:
             'Fall': [9,10,11]
         }
         self.dayDic = {
-            'morning': [6,10],
-            'day': [11,19],
-            'night':[20,5]
+            'morning': [6,7,8,9,10],
+            'day': [11,12,13,14,15,16,17,18,19],
+            'night':[20,21,22,23,24,0,1,2,3,4,5]
         }
 # returns a string of the current conditions outside. adds wallpaper for search purposes.
     def __str__(self) -> str:
